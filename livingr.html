@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gia dụng phòng khách</title>
+    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style1.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <div class="nav-logo">
+                <div class="logo">
+                    <a href="./index.php"><img src="./img/logosale.jpg" alt=""></a>
+                </div>
+            </div>
+            <div class="nav-address" id="adress_form">   
+                <p class="add-first">Giao hàng đến</p>
+                <div class="add-icon">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <p class="add-second">Viet Nam</p>
+                </div>
+            </div>
+            <div class="nav-search">
+                <select class="search-select">
+                    <option value="">Tất cả</option>
+                </select>
+                <input placeholder="Tìm kiếm" class="search-input">
+                <div class="search-icon">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
+            </div>
+            <div class="nav-signin">
+                <p><span><a href="./account.html">Xin chào, đăng nhập</a></span></p>
+                <p class="nav-second"><a href="./account.html">Tài khoản</a></p>
+    
+            </div>
+            <div class="nav-return">
+                <p><span>Mua sắm</span></p>
+                <p class="nav-second">& Đặt hàng </p>
+            </div>
+            <div class="nav-card">
+                <i class="fa-solid fa-cart-shopping"></i>
+                <p class="nav-second">Giỏ hàng</p>
+            </div>
+            <div class="adress_form">
+                <div class="adress_form_content">
+                    <h2>Chọn địa chỉ nhận hàng <span id="adress_close">X Đóng</span></h2>
+                    <form action="">
+                        <p>Quý khách vui lòng cho biết Địa Chỉ Nhận Hàng để biết chính xác thời gian giao hàng</p>
+                        <select name="" id="">
+                            <option value="#">Chọn địa điểm</option>
+                            <option value="#">Đà Nẵng</option>
+                        </select>
+                        <select name="" id="">
+                            <option value="#">Chọn Quận/Huyện</option>
+                            <option value="#">Đà Nẵng</option>
+                        </select>
+                        <select name="" id="">
+                            <option value="#">Chọn Phường/Xã</option>
+                            <option value="#">Đà Nẵng</option>
+                        </select>
+                        <input type="text" placeholder="Số nhà, tên đường">
+                        <button>Xác nhận</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+            <div class="panel-dropdown">
+                <div class="panel-dropdown-menu">
+                    <ul>
+                        <li><a href="index.php"><i class="fa-solid fa-house"></i>Trang chủ</a></li>
+                        <li><a href="livingr.html"><i class="fa-solid fa-couch"></i>Gia dụng phòng khách</a>
+                            <ul id="submenu">
+                                <li><a href="livingr.html">Bàn, ghế</a></li>
+                                <li><a href="livingr.html">Kệ tủ</a></li>
+                                <li><a href="livingr.html">Đồ trang trí</a></li>
+                                <li><a href="livingr.html">Đồ gia dụng khác</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="kitchen.html"><i class="fa-solid fa-kitchen-set"></i>Gia dụng phòng bếp</a>
+                            <ul id="submenu">
+                                <li><a href="kitchen.html">Bàn, ghế</a></li>
+                                <li><a href="kitchen.html">Dụng cụ nấu ăn</a></li>
+                                <li><a href="kitchen.html">Kệ, tủ bếp</a></li>
+                                <li><a href="kitchen.html">Đồ gia dụng khác</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="bathr.html"><i class="fa-solid fa-shower"></i>Gia dụng phòng tắm</a>
+                            <ul id="submenu">
+                                <li><a href="bathr.html">Bồn tắm, Bồn rửa mặt</a></li>
+                                <li><a href="bathr.html">Toilet</a></li>
+                                <li><a href="bathr.html">Gương tắm</a></li>
+                                <li><a href="bathr.html">Đồ gia dụng khác</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="bedr.html"><i class="fa-solid fa-bed"></i>Gia dụng phòng ngủ</a>
+                            <ul id="submenu">
+                                <li><a href="bedr.html">Giường</a></li>
+                                <li><a href="bedr.html">Tủ quần áo</a></li>
+                                <li><a href="bedr.html">Đồ trang trí</a></li>
+                                <li><a href="bedr.html">Đồ gia dụng khác</a></li>
+                            </ul>
+                        </li>
+                        <li><a href=""><i class="fa-solid fa-comment"></i>Tin tức</a></li>
+                        <li><a href=""><i class="fa-solid fa-blog"></i>Blog kiến thức</a></li>
+                        <li><a href="./contact.html"><i class="fa-solid fa-phone"></i>Liên hệ</a></li>
+                    </ul>
+                </div>
+            </div>
+    </header>
+        <!-- gia dung phong khach -->
+        <div class="small-container">
+            <div class="row row-2">
+                <h2><span>Trang chủ / </span>Gia dụng phòng khách</h2>
+                <div class="row-2-details">
+                    <p>Hiển thị tất cả 8 kết quả</p>
+                    <select>
+                        <option>Lọc sản phẩm</option>
+                        <option>Giá tăng dần</option>
+                        <option>Giá giảm dần</option>
+                        <option>Tên A -> Z</option>
+                        <option>Tên Z -> A</option>
+                    </select>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-4">
+                    <a href=""><img src="./img/phongkhach2-1.jpg" alt=""></a>
+                    <div class="col-4-text">
+                        <h4><a href="">Bộ Bình Nước Thủy Tinh Màu Rượu Vang</a></h4>
+                        <div class="rating">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                        </div>
+                        <p>1.500.000 VNĐ</p>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <a href=""><img src="./img/phongkhach2-2.jpg" alt=""></a>
+                    <div class="col-4-text">
+                        <h4><a href="">Bộ Bình Nước Thủy Tinh Màu Xám Phong Cách Bắc Âu</a></h4>
+                        <div class="rating">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                        </div>
+                        <p>1.500.000 VNĐ</p>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <a href=""><img src="./img/phongkhach2-3.jpg" alt=""></a>
+                    <div class="col-4-text">
+                        <h4><a href="">Bộ Bình Nước Thủy Tinh Màu Xám Phong Cách Bắc Âu</a></h4>
+                        <div class="rating">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                        </div>
+                        <p>1.500.000 VNĐ</p>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <a href=""><img src="./img/phongkhach2-4.jpg" alt=""></a>
+                    <div class="col-4-text">
+                        <h4><a href="">Bộ Bình Trà Thủy Tinh Cao Cấp</a></h4>
+                        <div class="rating">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                        </div>
+                        <p>1.500.000 VNĐ</p>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <a href=""><img src="./img/phongkhach2-5.jpg" alt=""></a>
+                    <div class="col-4-text">
+                        <h4><a href="">Bộ Ghế Sofa Bọc Da Cao Cấp</a></h4>
+                        <div class="rating">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                        </div>
+                        <p>1.500.000 VNĐ</p>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <a href=""><img src="./img/phongkhach2-6.jpg" alt=""></a>
+                    <div class="col-4-text">
+                        <h4><a href="">Bộ Ghế Sofa Góc Bọc Da Cao Cấp</a></h4>
+                        <div class="rating">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                        </div>
+                        <p>1.500.000 VNĐ</p>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <a href=""><img src="./img/phongkhach2-7.jpg" alt=""></a>
+                    <div class="col-4-text">
+                        <h4><a href="">Bộ Khay Gốm Đựng Trái Cây Khung Kim Loại</a></h4>
+                        <div class="rating">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                        </div>
+                        <p>1.500.000 VNĐ</p>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <a href=""><img src="./img/phongkhach2-8.jpg" alt=""></a>
+                    <div class="col-4-text">
+                        <h4><a href="">Bộ Khay Hoa Quả, Gạt Tàn, Hộp Giấy</a></h4>
+                        <div class="rating">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                        </div>
+                        <p>1.500.000 VNĐ</p>
+                    </div>
+                </div>
+                </div>
+                <div class="page-btn">
+                    <span>1</span>
+                    <span>2</span>
+                    <span>3</span>
+                    <span>4</span>
+                    <span>&#8594;</span>
+                </div>
+            </div>
+        </div>
+        <!-- footer -->
+        <div class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="footer-col-1">
+                        <h3>Tải xuống ứng dụng</h3>
+                        <p>Tải xuống ứng dụng cho hệ điều hành Android và IOS trên điện thoại</p>
+                        <div class="app-logo">
+                            <img src="img/play-store.png">
+                            <img src="img/app-store.png">
+                        </div>
+                    </div>
+                    <div class="footer-col-3">
+                        <h3>Mạng xã hội</h3>
+                        <ul>
+                            <li>Facebook</li>
+                            <li>Zalo</li>
+                            <li>Instagram</li>
+                            <li>Youtube</li>
+                        </ul>
+                    </div>
+                    <div class="footer-col-4">
+                        <h3>Hỗ trợ</h3>
+                        <ul style="line-height: 1.5;">
+                            <li>Điện thoại: 0123456789</li>
+                            <li>Mail: dev@gmail.com</li>
+                            <li>Địa chỉ: Đại học Phenikaa</li>
+                            <li>Fanpage: Dev.com</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer__copyright">
+                <p>&copy; Design by <span>MinhHao, GiangHoang</span></p>
+            </div>
+        </div>
+        <script src="./js/script.js"></script>
+</body>
+</html>
